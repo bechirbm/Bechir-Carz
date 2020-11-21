@@ -1,0 +1,96 @@
+
+/*  Banner  */
+
+@media (max-width: 900px){
+    .banner_bg img{
+        height: 110%;
+        margin-top: 0%;
+    }
+}
+
+/*  About Us  */
+
+@media (max-width: 900px){
+    .info_card{
+        height: fit-content;
+    }
+}
+
+/*  Photos  */
+
+@media (max-width: 900px){
+    .photos{
+        height: 1000px !important;
+        width: 100vw;
+        text-align: center;
+        margin-bottom: 100vw;
+    }
+}
+
+/*  Extra Information  */
+
+@media (max-width: 900px){
+    .extra{
+        text-align: center;
+        margin-top: -85vw !important;
+    }
+}
+@media (max-width: 1100px){
+    .extra{
+        text-align: center;
+        margin-top: 100vw;
+    }
+}
+@media (max-width: 1200px){
+    .extra{
+        text-align: center;
+        margin-top: 70vw;
+    }
+}
+@media (max-width: 1100px){
+    .extra{
+        text-align: center;
+        margin-top: 100vw;
+    }
+}
+
+/*  Class Schedule  */
+
+@media (max-width: 900px){
+    .schedule_content{
+        justify-content: center;
+        align-items: center;
+    }
+    .schedule_des{
+        transform: translateX(0);
+    }
+}
+
+/*  Pricing  */
+
+@media (max-width: 900px){
+    .pricing{
+        height: 1300px;
+    }
+    .package {
+        float: initial;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+/*  Get In Touch  */
+
+@media (max-width: 900px){
+    .contact{
+        height: 650px;
+    }
+}
+
+/*  Footer  */
+
+@media (max-width: 991px){
+    .site-footer [class^=col-]{
+      margin-bottom: 30px
+    }
+}

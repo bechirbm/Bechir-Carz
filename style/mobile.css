@@ -1,0 +1,96 @@
+/*  Nav Bar  */
+
+@media (max-width: 800px){
+    #title{
+        font-size: 20px;
+    }
+}
+
+/*  Banner  */
+
+@media (max-width: 800px){
+    .banner_description h2{
+        font-size: 25px;
+        padding: 0 20px;
+    }
+    .banner_bg{
+        height: 105%;
+    }
+}
+
+/*  General info  */
+
+@media (max-width: 800px){
+    .extra{
+        text-align: center;
+        padding-top: 120vh !important;
+    }
+}
+@media (max-width: 400px){
+    .extra{
+        text-align: center;
+        padding-top: 170vh !important;
+    }
+}
+
+/*  Pricing  */
+
+@media (max-width: 800px){
+    .pricing{
+        height: 1300px;
+    }
+    .package {
+        float: initial;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*  Contact Us  */
+
+@media (max-width: 400px){
+    .other_input_container{
+        width: 85vw;
+    }
+    .input_container{
+        width: 100% !important;
+        margin: 0;
+    }
+    .inputs{
+        width: 85vw;
+        display: block;
+    }
+    #last{
+        transform: translateX(-15%);
+    }
+    #first{
+        transform: translateX(-100%);
+    }
+    .form{
+        width: 100vw;
+    }
+    .contact{
+        height: 850px;
+    }
+}
+
+/*  Footer  */
+
+@media (max-width: 700px){
+    .social-icons li.title{
+      display: block;
+      margin-right: 0;
+      font-weight: 600
+    }
+}
+@media (max-width: 800px){
+    .site-footer{
+        padding-bottom: 0;
+        margin-top: -250px;
+    }
+    .site-footer .copyright-text,.site-footer .social-icons{
+        text-align: center
+    }
+}

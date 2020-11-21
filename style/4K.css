@@ -1,0 +1,19 @@
+
+@media only screen and (min-width: 2000px) {
+    .extra{
+        text-align: center;
+        margin-top: 27vw ;
+    }
+}
+@media only screen and (min-width: 2260px) {
+    .extra{
+        text-align: center;
+        margin-top: 13vw !important;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    .extra{
+        text-align: center;
+        margin-top: 35vw;
+    }
+}
